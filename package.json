@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "ssafy-uix",
+  "version": "0.0.1",
+  "description": "디자인 → 개발 핸드오프 프로세스에 대해 학습합니다.",
+  "scripts": {
+    "serve": "live-server --host=localhost --port=3000 --no-browser"
+  },
+  "devDependencies": {
+    "live-server": "1.2.2"
+  }
+}

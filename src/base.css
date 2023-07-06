@@ -1,0 +1,18 @@
+:root {
+  font-size: 10px;
+  background: var(--color-white);
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.6rem/1.5 Pretendard, sans-serif;
+  color: var(--color-black);
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
