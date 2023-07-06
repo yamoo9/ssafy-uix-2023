@@ -20,7 +20,7 @@
 
 - [Tailwind CSS Color Generator](https://www.figma.com/community/plugin/1242548152689430610/Tailwind-CSS-Color-Generator)
 - [Convert Color Styles to Variables](https://www.figma.com/community/plugin/1253946217627460950/Convert-Color-Styles-to-Variables)
-- [Variables Convertor](https://www.figma.com/community/plugin/1253946217627460950/Convert-Color-Styles-to-Variables)
+- [Variables Convertor](https://www.figma.com/community/plugin/1256000104406722117/Variables-Converter)
 - [variable2json](https://www.figma.com/community/plugin/1253571037276959291)
 
 ## VS Code 확장
