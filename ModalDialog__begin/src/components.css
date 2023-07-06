@@ -1,0 +1,15 @@
+.ModalDialog {
+  & button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+  }
+
+  .ModalDialog__closeButton {
+    --size: 26px;
+    padding: var(--spacing-1);
+    color: var(--border-brand);
+    inline-size: var(--size);
+    block-size: var(--size);
+  }
+}

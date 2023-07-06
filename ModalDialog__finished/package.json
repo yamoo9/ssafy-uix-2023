@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "live-server --host=localhost --port=4000 --no-browser",
+    "bundle": "node ./bundleCSS.js --cssDir=src --entryFile=main.css --outDir=styles --outFile=main.css"
+  },
+  "devDependencies": {
+    "live-server": "1.2.2"
+  }
+}

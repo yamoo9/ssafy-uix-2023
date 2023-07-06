@@ -9,10 +9,26 @@ body {
   color: var(--color-black);
 }
 
+@media print {
+  a:where([href]) {
+    &::before {
+      content: '(' attr(href) ')';
+    }
+  }
+}
+
+img {
+  vertical-align: middle;
+}
+
 button {
   cursor: pointer;
 
   &:disabled {
     cursor: not-allowed;
+  }
+
+  & svg {
+    pointer-events: none;
   }
 }

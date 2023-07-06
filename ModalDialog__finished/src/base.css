@@ -1,0 +1,22 @@
+:root {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.6rem/1.5 Pretendard, sans-serif;
+  box-sizing: inherit;
+  
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+
+  & * {
+    box-sizing: inherit;
+  }
+}
+
+:focus-visible {
+  outline: var(--focus-ring);
+}
