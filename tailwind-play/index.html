@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
-<head>
-  <meta charset="UTF-8" />
-  <title>Tailwind CSS 플레이</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="https://tailwindui.com/img/logos/mark.svg?color=cyan&shade=400" type="image/xml+svg" />
-  
-  <!-- Tailwind CSS Play CDN 호출 -->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tailwind CSS 플레이</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://tailwindui.com/img/logos/mark.svg?color=cyan&shade=400"
+      type="image/xml+svg"
+    />
 
-  <!-- Tailwind CSS 커스텀 토큰 확장 -->
-  
-  <!-- Tailwind CSS 커스텀 모듈 정의 -->
-  
+    <!-- Tailwind CSS Play CDN 호출 -->
+    <script src="//cdn.tailwindcss.com" defer></script>
 
-</head>
-<body>
-  
-  
+    <!-- Tailwind CSS 커스텀 토큰 확장 -->
 
-</body>
+    <!-- Tailwind CSS 커스텀 모듈 정의 -->
+    <style type="text/tailwindcss">
+      @layer components {
+        .container {
+          @apply relative;
+          @apply min-h-screen max-w-full;
+          @apply bg-[url('https://play.tailwindcss.com/img/beams.jpg')] bg-no-repeat bg-center bg-cover;
+        }
+        .logo {
+          @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+          @apply transition-transform duration-[400ms] ease-in-out;
+          @apply h-10 w-auto;
+          @apply hover:scale-150;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <!-- 유틸리티 퍼스트 데모 : CSS 클래스 정의 ❌ -->
+    <div id="demo__utility-first" hidden>
+      <div
+        class="
+          relative 
+          min-h-screen max-w-full
+          bg-[url('https://play.tailwindcss.com/img/beams.jpg')] bg-no-repeat bg-center bg-cover"
+      >
+        <img
+          class="
+            absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
+            transition-transform duration-[400ms] ease-in-out
+            h-10 w-auto 
+            hover:scale-150"
+          src="https://play.tailwindcss.com/img/logo.svg"
+          alt="tailwind play"
+        />
+      </div>
+    </div>
+
+    <!-- 재사용 가능한 클래스 데모 : CSS 클래스 정의 ✅ -->
+    <div id="demo__reuse-classes">
+      <div class="container">
+        <img class="logo" src="https://play.tailwindcss.com/img/logo.svg" alt="tailwind play" />
+      </div>
+    </div>
+  </body>
 </html>
