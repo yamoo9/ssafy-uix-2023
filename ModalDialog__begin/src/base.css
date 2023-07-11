@@ -1,5 +1,5 @@
 :root {
-  font-size: 10px;
+  font-size: 10px; /* rem 단위의 기본 값: 10px */
   background: var(--color-white);
   box-sizing: border-box;
 }

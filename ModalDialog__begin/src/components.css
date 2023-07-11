@@ -1,15 +1,115 @@
 .ModalDialog {
-  & button {
-    border: 0;
-    padding: 0;
-    background: transparent;
+  display: flex;
+  flex-flow: column;
+  row-gap: var(--spacing-6, 2.4rem);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  min-inline-size: 60rem;
+  max-inline-size: 90rem;
+  padding: var(--spacing-12, 4.8rem);
+  border: 0.4rem solid var(--border-brand, #be122f);
+  border-radius: var(--radius-xl, 1.6rem);
+
+  .ModalDialog__head {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-1, 0.4rem);
+
+    & * {
+      margin: 0;
+    }
+
+    & h3 {
+      color: var(--text-brand, #be122f);
+      font-size: 3.2rem;
+      line-height: normal;
+      font-weight: 700;
+    }
+
+    & p {
+      color: var(--text-brand, #be122f);
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
   }
 
-  .ModalDialog__closeButton {
-    --size: 26px;
-    padding: var(--spacing-1);
-    color: var(--border-brand);
-    inline-size: var(--size);
-    block-size: var(--size);
+  /* .ModalDialog__body {} */
+
+  .ModalDialog__control {
+    position: relative;
+    border: 0.1rem dashed var(--border-brand, #be122f);
+    padding: 6.4rem 14.4rem;
+
+    &:focus-within {
+      background: color-mix(
+        in srgb,
+        var(--surface-brand, #be122f) 10%,
+        var(--color-white) 100%
+      );
+    }
+
+    & input[type='file'] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+    }
+
+    & label {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      row-gap: var(--spacing-5, 2rem);
+      color: var(--text-brand, #be122f);
+      white-space: nowrap;
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+  }
+
+  .ModalDialog__foot {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: var(--spacing-2, 0.8rem);
+
+    & button {
+      border: 0;
+      padding: 0;
+      background: transparent;
+
+      &:not(.ModalDialog__closeButton) {
+        border-radius: var(--radius-md, 0.6rem);
+        padding: 1.2rem 4.8rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 1;
+        color: var(--text-accent, #f7f8f8);
+        font-size: 1.6rem;
+        font-weight: 400;
+      }
+    }
+
+    .ModalDialog__saveButton {
+      background: var(--surface-brand, #be122f);
+    }
+    .ModalDialog__cancelButton {
+      background: var(--surface-secondary, #25262c);
+    }
+
+    .ModalDialog__closeButton {
+      --size: 26px;
+      position: absolute;
+      top: 3.2rem;
+      right: 3.2rem;
+      padding: var(--spacing-1);
+      color: var(--border-brand);
+      inline-size: var(--size);
+      block-size: var(--size);
+    }
   }
 }
