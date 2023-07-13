@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "alfredbirk.tailwind-documentation",
+    "KalimahApps.tailwind-config-viewer",
+    "Jackardios.vscode-css-to-tailwindcss",
+    "bourhaouta.tailwindshades",
+    "omkarbhede.tailwindcss-tune",
+    "stivo.tailwind-fold",
+    "rebornix.toggle"
+  ]
+}
