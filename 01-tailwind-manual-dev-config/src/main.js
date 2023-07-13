@@ -1,1 +1,1 @@
-console.log('hello vite!');
+import './styles/tailwind.css';

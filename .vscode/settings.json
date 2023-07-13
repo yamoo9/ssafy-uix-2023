@@ -18,4 +18,5 @@
     "plaintext": "html"
   },
   "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.configFile": "./01-tailwind-manual-dev-config/tailwind.config.js"
 }
