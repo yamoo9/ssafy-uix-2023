@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "tailwind-fundamentals",
+  "version": "0.0.1",
+  "description": "Tailwind CSS 펀더멘탈",
+  "keywords": [
+    "tailwind",
+    "vite"
+  ],
+  "author": "yamoo9@naver.com",
+  "license": "MIT"
+}
