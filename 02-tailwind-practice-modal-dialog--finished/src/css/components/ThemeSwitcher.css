@@ -1,0 +1,33 @@
+.ThemeSwitcher {
+  position: fixed;
+  z-index: 10000;
+  top: 24px;
+  right: 32px;
+  display: flex;
+  column-gap: var(--spacing-4);
+  background: color-mix(in srgb, var(--color-white) 90%, transparent 100%);
+  backdrop-filter: blur(4px);
+  padding: var(--spacing-4);
+  border-radius: var(--radius-2xl);
+  box-shadow: 0 4px 10px var(--color-shadow-100);
+
+  & button {
+    --size: 24px;
+    cursor: pointer;
+    inline-size: var(--size);
+    block-size: var(--size);
+    border-radius: 50%;
+    border: 0;
+    opacity: 0.55;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover,
+    &:focus {
+      opacity: 0.95;
+    }
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}

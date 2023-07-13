@@ -1,0 +1,1377 @@
+{
+  "version": "1.0.4",
+  "metadata": {},
+  "collections": [
+    {
+      "name": "tokens",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "variables": [
+            {
+              "name": "text/brand",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "tokens",
+                "name": "surface/brand"
+              }
+            },
+            {
+              "name": "text/invert",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/gray/100"
+              }
+            },
+            {
+              "name": "text/accent",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/gray/50"
+              }
+            },
+            {
+              "name": "surface/accent",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/orange/400"
+              }
+            },
+            {
+              "name": "surface/secondary",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/gray/950"
+              }
+            },
+            {
+              "name": "surface/primary",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/rose/800"
+              }
+            },
+            {
+              "name": "surface/invert",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/teal/500"
+              }
+            },
+            {
+              "name": "text/secondary",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/gray/500"
+              }
+            },
+            {
+              "name": "border/brand",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "tokens",
+                "name": "surface/brand"
+              }
+            },
+            {
+              "name": "surface/brand",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/rose/700"
+              }
+            },
+            {
+              "name": "border/accent",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/orange/400"
+              }
+            },
+            {
+              "name": "border/secondary",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "tokens",
+                "name": "text/secondary"
+              }
+            },
+            {
+              "name": "text/primary",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/gray/950"
+              }
+            },
+            {
+              "name": "border/invert",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "primitives",
+                "name": "color/teal/500"
+              }
+            },
+            {
+              "name": "border/primary",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "tokens",
+                "name": "surface/primary"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "primitives",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "variables": [
+            {
+              "name": "radius/full",
+              "type": "number",
+              "isAlias": false,
+              "value": 9999
+            },
+            {
+              "name": "radius/3xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 40
+            },
+            {
+              "name": "radius/2xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "radius/lg",
+              "type": "number",
+              "isAlias": false,
+              "value": 12
+            },
+            {
+              "name": "radius/sm",
+              "type": "number",
+              "isAlias": false,
+              "value": 4
+            },
+            {
+              "name": "text-size/3xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 28
+            },
+            {
+              "name": "text-size/2xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "text-size/xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 20
+            },
+            {
+              "name": "text-size/lg",
+              "type": "number",
+              "isAlias": false,
+              "value": 18
+            },
+            {
+              "name": "text-size/base",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "text-size/sm",
+              "type": "number",
+              "isAlias": false,
+              "value": 14
+            },
+            {
+              "name": "text-size/xs",
+              "type": "number",
+              "isAlias": false,
+              "value": 12
+            },
+            {
+              "name": "spacing/10",
+              "type": "number",
+              "isAlias": false,
+              "value": 40
+            },
+            {
+              "name": "radius/md",
+              "type": "number",
+              "isAlias": false,
+              "value": 8
+            },
+            {
+              "name": "color/rose/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#4C0511"
+            },
+            {
+              "name": "text-size/4xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "color/rose/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#881327"
+            },
+            {
+              "name": "radius/xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "color/rose/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#9F122A"
+            },
+            {
+              "name": "color/rose/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#BE122F"
+            },
+            {
+              "name": "text-size/5xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 48
+            },
+            {
+              "name": "color/rose/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#E11D3F"
+            },
+            {
+              "name": "color/rose/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F43F5E"
+            },
+            {
+              "name": "radius/xs",
+              "type": "number",
+              "isAlias": false,
+              "value": 2
+            },
+            {
+              "name": "color/rose/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FB7189"
+            },
+            {
+              "name": "text-size/6xl",
+              "type": "number",
+              "isAlias": false,
+              "value": 64
+            },
+            {
+              "name": "color/rose/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FDA4B3"
+            },
+            {
+              "name": "color/rose/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FECDD5"
+            },
+            {
+              "name": "color/rose/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFE4E9"
+            },
+            {
+              "name": "color/rose/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFF1F3"
+            },
+            {
+              "name": "color/pink/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#50072B"
+            },
+            {
+              "name": "color/pink/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#83184D"
+            },
+            {
+              "name": "color/pink/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#9D1759"
+            },
+            {
+              "name": "color/pink/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#BE186A"
+            },
+            {
+              "name": "color/pink/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#DB2780"
+            },
+            {
+              "name": "color/pink/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#EC4899"
+            },
+            {
+              "name": "color/pink/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F472B2"
+            },
+            {
+              "name": "color/pink/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F9A8D0"
+            },
+            {
+              "name": "color/pink/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FBCFE5"
+            },
+            {
+              "name": "color/pink/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FCE7F1"
+            },
+            {
+              "name": "color/pink/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FDF2F7"
+            },
+            {
+              "name": "color/violet/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#2E1065"
+            },
+            {
+              "name": "color/violet/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#4B1D95"
+            },
+            {
+              "name": "color/violet/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#5A21B6"
+            },
+            {
+              "name": "color/violet/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#6C28D9"
+            },
+            {
+              "name": "color/violet/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#7B3AED"
+            },
+            {
+              "name": "color/violet/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#8B5DF6"
+            },
+            {
+              "name": "color/violet/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#A68BFA"
+            },
+            {
+              "name": "color/violet/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#C4B5FD"
+            },
+            {
+              "name": "color/violet/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#DDD6FE"
+            },
+            {
+              "name": "color/violet/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#EDE9FE"
+            },
+            {
+              "name": "color/violet/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F5F3FF"
+            },
+            {
+              "name": "color/indigo/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#1E1B4B"
+            },
+            {
+              "name": "color/indigo/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#322E81"
+            },
+            {
+              "name": "color/indigo/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#3830A3"
+            },
+            {
+              "name": "color/indigo/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#4438CA"
+            },
+            {
+              "name": "spacing/12",
+              "type": "number",
+              "isAlias": false,
+              "value": 48
+            },
+            {
+              "name": "color/indigo/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#5046E5"
+            },
+            {
+              "name": "spacing/11",
+              "type": "number",
+              "isAlias": false,
+              "value": 44
+            },
+            {
+              "name": "color/indigo/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#6466F1"
+            },
+            {
+              "name": "color/indigo/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#818BF8"
+            },
+            {
+              "name": "spacing/13",
+              "type": "number",
+              "isAlias": false,
+              "value": 52
+            },
+            {
+              "name": "color/indigo/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#A5B3FC"
+            },
+            {
+              "name": "color/cyan/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#09B6D4"
+            },
+            {
+              "name": "color/indigo/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#E0E7FF"
+            },
+            {
+              "name": "color/cyan/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#69E6F7"
+            },
+            {
+              "name": "color/cyan/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#A6F2FB"
+            },
+            {
+              "name": "color/blue/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#082F49"
+            },
+            {
+              "name": "color/cyan/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#D0F9FD"
+            },
+            {
+              "name": "color/indigo/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#C7D2FE"
+            },
+            {
+              "name": "color/cyan/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#ECFEFF"
+            },
+            {
+              "name": "color/blue/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#085984"
+            },
+            {
+              "name": "spacing/4",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "color/teal/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#042F2E"
+            },
+            {
+              "name": "color/indigo/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#EEF2FF"
+            },
+            {
+              "name": "spacing/5",
+              "type": "number",
+              "isAlias": false,
+              "value": 20
+            },
+            {
+              "name": "color/teal/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#134E4A"
+            },
+            {
+              "name": "color/blue/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#0384C6"
+            },
+            {
+              "name": "spacing/half",
+              "type": "number",
+              "isAlias": false,
+              "value": 2
+            },
+            {
+              "name": "color/teal/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#115E59"
+            },
+            {
+              "name": "color/blue/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#0C4A6E"
+            },
+            {
+              "name": "spacing/3",
+              "type": "number",
+              "isAlias": false,
+              "value": 12
+            },
+            {
+              "name": "color/teal/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#0F766F"
+            },
+            {
+              "name": "color/blue/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#39BDF7"
+            },
+            {
+              "name": "spacing/8",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "color/teal/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#0D9489"
+            },
+            {
+              "name": "color/blue/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#0469A0"
+            },
+            {
+              "name": "spacing/9",
+              "type": "number",
+              "isAlias": false,
+              "value": 36
+            },
+            {
+              "name": "color/teal/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#14B8A7"
+            },
+            {
+              "name": "color/blue/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#BAE6FD"
+            },
+            {
+              "name": "spacing/6",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "color/teal/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#2DD4C0"
+            },
+            {
+              "name": "color/blue/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#0FA5E9"
+            },
+            {
+              "name": "spacing/7",
+              "type": "number",
+              "isAlias": false,
+              "value": 28
+            },
+            {
+              "name": "color/teal/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#5EEAD5"
+            },
+            {
+              "name": "color/blue/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F0F9FF"
+            },
+            {
+              "name": "color/teal/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#99F6E5"
+            },
+            {
+              "name": "color/blue/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#7ED3FB"
+            },
+            {
+              "name": "color/teal/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#CCFBF1"
+            },
+            {
+              "name": "color/blue/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#E0F2FE"
+            },
+            {
+              "name": "color/yellow/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#422006"
+            },
+            {
+              "name": "color/sky/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#093343"
+            },
+            {
+              "name": "spacing/2",
+              "type": "number",
+              "isAlias": false,
+              "value": 8
+            },
+            {
+              "name": "color/yellow/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#864D0D"
+            },
+            {
+              "name": "color/orange/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FB923C"
+            },
+            {
+              "name": "color/sky/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#174E62"
+            },
+            {
+              "name": "color/teal/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F0FDFA"
+            },
+            {
+              "name": "color/orange/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FDBA74"
+            },
+            {
+              "name": "color/sky/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#165D74"
+            },
+            {
+              "name": "spacing/px",
+              "type": "number",
+              "isAlias": false,
+              "value": 1
+            },
+            {
+              "name": "color/yellow/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#CB8A03"
+            },
+            {
+              "name": "color/orange/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FED7AA"
+            },
+            {
+              "name": "color/sky/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#10738E"
+            },
+            {
+              "name": "spacing/1",
+              "type": "number",
+              "isAlias": false,
+              "value": 4
+            },
+            {
+              "name": "color/yellow/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#713F12"
+            },
+            {
+              "name": "color/orange/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFEDD5"
+            },
+            {
+              "name": "color/sky/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#0A90B0"
+            },
+            {
+              "name": "color/yellow/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FBCD14"
+            },
+            {
+              "name": "color/orange/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFF7ED"
+            },
+            {
+              "name": "color/sky/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#09B6D4"
+            },
+            {
+              "name": "color/yellow/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#A26206"
+            },
+            {
+              "name": "color/red/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#450A0A"
+            },
+            {
+              "name": "color/sky/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#25D1EB"
+            },
+            {
+              "name": "color/yellow/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FEF08A"
+            },
+            {
+              "name": "color/red/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#7F1D1D"
+            },
+            {
+              "name": "color/sky/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#A6F2FB"
+            },
+            {
+              "name": "color/yellow/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FEFCE8"
+            },
+            {
+              "name": "color/red/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#BA1B1B"
+            },
+            {
+              "name": "color/sky/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#D0F9FD"
+            },
+            {
+              "name": "color/yellow/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FEE146"
+            },
+            {
+              "name": "color/red/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#DD2525"
+            },
+            {
+              "name": "color/sky/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#ECFEFF"
+            },
+            {
+              "name": "color/orange/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#7C2D12"
+            },
+            {
+              "name": "color/red/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F04545"
+            },
+            {
+              "name": "color/cyan/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#093343"
+            },
+            {
+              "name": "color/yellow/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FEF9C3"
+            },
+            {
+              "name": "color/red/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F97070"
+            },
+            {
+              "name": "color/cyan/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#174E62"
+            },
+            {
+              "name": "color/orange/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#C2410C"
+            },
+            {
+              "name": "color/red/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FCA5A5"
+            },
+            {
+              "name": "color/cyan/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#165D74"
+            },
+            {
+              "name": "color/orange/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#431407"
+            },
+            {
+              "name": "color/red/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FECACA"
+            },
+            {
+              "name": "color/cyan/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#10738E"
+            },
+            {
+              "name": "color/orange/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F97417"
+            },
+            {
+              "name": "color/red/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FEE2E2"
+            },
+            {
+              "name": "color/cyan/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#0A90B0"
+            },
+            {
+              "name": "color/orange/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#9A3412"
+            },
+            {
+              "name": "color/red/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FEF2F2"
+            },
+            {
+              "name": "color/gray/950",
+              "type": "color",
+              "isAlias": false,
+              "value": "#25262C"
+            },
+            {
+              "name": "color/cyan/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#25D1EB"
+            },
+            {
+              "name": "color/orange/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#EA580C"
+            },
+            {
+              "name": "color/gray/900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#383A42"
+            },
+            {
+              "name": "color/gray/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#40434C"
+            },
+            {
+              "name": "color/gray/600",
+              "type": "color",
+              "isAlias": false,
+              "value": "#5B616E"
+            },
+            {
+              "name": "color/gray/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#6C7280"
+            },
+            {
+              "name": "color/gray/400",
+              "type": "color",
+              "isAlias": false,
+              "value": "#8F95A1"
+            },
+            {
+              "name": "color/gray/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#B6BAC3"
+            },
+            {
+              "name": "color/gray/200",
+              "type": "color",
+              "isAlias": false,
+              "value": "#D8DADF"
+            },
+            {
+              "name": "color/gray/50",
+              "type": "color",
+              "isAlias": false,
+              "value": "#F7F8F8"
+            },
+            {
+              "name": "color/black",
+              "type": "color",
+              "isAlias": false,
+              "value": "#000000"
+            },
+            {
+              "name": "color/gray/100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#EEEEF0"
+            },
+            {
+              "name": "color/gray/700",
+              "type": "color",
+              "isAlias": false,
+              "value": "#4A4E5A"
+            },
+            {
+              "name": "color/sky/300",
+              "type": "color",
+              "isAlias": false,
+              "value": "#69E6F7"
+            },
+            {
+              "name": "color/yellow/500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#EAB307"
+            },
+            {
+              "name": "color/red/800",
+              "type": "color",
+              "isAlias": false,
+              "value": "#9A1A1A"
+            },
+            {
+              "name": "color/white",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Effects",
+      "modes": [
+        {
+          "name": "Style",
+          "variables": [
+            {
+              "name": "shadow-sm",
+              "type": "effect",
+              "isAlias": false,
+              "value": {
+                "effects": [
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.05
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "radius": 2,
+                    "spread": 0
+                  }
+                ]
+              }
+            },
+            {
+              "name": "shadow-base",
+              "type": "effect",
+              "isAlias": false,
+              "value": {
+                "effects": [
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "radius": 3,
+                    "spread": 0
+                  },
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "radius": 2,
+                    "spread": -1
+                  }
+                ]
+              }
+            },
+            {
+              "name": "shadow-md",
+              "type": "effect",
+              "isAlias": false,
+              "value": {
+                "effects": [
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "radius": 6,
+                    "spread": -1
+                  },
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "radius": 4,
+                    "spread": -2
+                  }
+                ]
+              }
+            },
+            {
+              "name": "shadow-lg",
+              "type": "effect",
+              "isAlias": false,
+              "value": {
+                "effects": [
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 10
+                    },
+                    "radius": 15,
+                    "spread": -3
+                  },
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "radius": 6,
+                    "spread": -4
+                  }
+                ]
+              }
+            },
+            {
+              "name": "shadow-xl",
+              "type": "effect",
+              "isAlias": false,
+              "value": {
+                "effects": [
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 20
+                    },
+                    "radius": 25,
+                    "spread": -5
+                  },
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.1
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "radius": 10,
+                    "spread": -6
+                  }
+                ]
+              }
+            },
+            {
+              "name": "shadow-2xl",
+              "type": "effect",
+              "isAlias": false,
+              "value": {
+                "effects": [
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.25
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 25
+                    },
+                    "radius": 50,
+                    "spread": -12
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tailwind CSS + 모달 다이얼로그 컴포넌트</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="이미지 텍스트 자동 인식 모달 다이얼로그 DEMO"
+    />
+    <meta name="theme-color" content="#006eb4" />
+    <link
+      rel="icon"
+      href="https://tailwindui.com/img/logos/mark.svg?color=cyan&shade=400"
+      type="image/xml+svg"
+    />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <theme-switcher></theme-switcher>
+
+    <div
+      role="dialog"
+      aria-modal="true"
+      class="fixed left-1/2 top-1/2 z-[1000] flex min-w-[600px] max-w-[900px] -translate-x-1/2 -translate-y-1/2 flex-col justify-center gap-6 rounded-2xl border-4 border-solid border-borderBrand bg-white p-12 text-[13px] font-medium text-brand shadow-dialog"
+    >
+      <div>
+        <h3 class="my-0 text-[32px] font-bold leading-tight">이미지 업로드</h3>
+        <p class="my-0 text-sm font-medium leading-tight">
+          이미지 텍스트 자동 인식 DEMO
+        </p>
+      </div>
+
+      <div>
+        <div
+          class="relative flex flex-col items-center border border-dashed border-borderBrand p-[4.923em_9em] text-[13px] transition-all duration-400 ease-in-out focus-within:bg-borderBrandMix hover:bg-borderBrandMix"
+        >
+          <input
+            type="file"
+            name="uploadImage"
+            id="uploadImage"
+            class="absolute bottom-0 left-0 right-0 top-0 cursor-pointer opacity-0"
+          />
+          <icon-placeholder
+            class="pointer-events-none mb-5 text-surfaceBrand"
+          ></icon-placeholder>
+          <label
+            for="uploadImage"
+            class="overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            파일을 드래그&amp;드롭 영역에 끌어 옮기거나,
+            <em class="not-italic underline underline-offset-2"
+              >파일을 탐색해 업로드</em
+            >
+            합니다.
+          </label>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-end gap-2" role="group">
+        <button
+          type="button"
+          class="inline-flex cursor-pointer items-center justify-center rounded-md border-0 bg-surfaceBrand p-[0.75em_3em] text-base font-bold text-white transition-all duration-200 ease-in-out hover:bg-surfacePrimaryMix"
+        >
+          저장
+        </button>
+        <button
+          type="button"
+          class="inline-flex cursor-pointer items-center justify-center rounded-md border-0 bg-surfaceSecondary p-[0.75em_3em] text-base font-bold text-white transition-all duration-200 ease-in-out hover:bg-surfaceSecondaryMix"
+        >
+          취소
+        </button>
+        <button
+          type="button"
+          class="absolute right-8 top-8 inline-flex h-[26px] w-[26px] cursor-pointer items-center justify-center border-0 bg-transparent p-[0.4em] text-base outline-none transition-all duration-200 ease-in-out hover:rounded-md hover:bg-borderBrandMix focus:rounded-md focus:bg-borderBrandMix"
+          aria-label="다이얼로그 닫기"
+          title="다이얼로그 닫기"
+        >
+          <icon-close></icon-close>
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="fixed bottom-0 left-0 right-0 top-0 z-[100] bg-surfaceBrandMix"
+    ></div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "private": true,
+  "name": "@yamoo9/figma2tailwind",
+  "version": "0.0.2",
+  "main": "index.mjs",
+  "scripts": {
+    "convert": "node index.mjs --input=demo/variables.json --output=demo/theme.js --semantics=tokens"
+  }
+}
