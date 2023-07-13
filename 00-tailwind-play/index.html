@@ -14,15 +14,54 @@
     <script src="//cdn.tailwindcss.com" defer></script>
 
     <!-- Tailwind CSS 커스텀 토큰 확장 -->
+    <script>
+      globalThis.addEventListener('DOMContentLoaded', () => {
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                blizzardBlue: {
+                  100: '#eafbfc',
+                  200: '#d5f6f8',
+                  300: '#c1f2f5',
+                  400: '#acedf1',
+                  500: '#97e9ee',
+                  600: '#79babe',
+                  700: '#5b8c8f',
+                  800: '#3c5d5f',
+                  900: '#1e2f30',
+                },
+              },
+            },
+            backgroundImage: {
+              'tw-beams': `url('https://play.tailwindcss.com/img/beams.jpg')`,
+            },
+            transitionDuration: {
+              400: '400ms',
+              600: '600ms',
+              slow: '200ms',
+              normal: '400ms',
+              fast: '600ms',
+            },
+          },
+        };
+      });
+    </script>
 
     <!-- Tailwind CSS 커스텀 모듈 정의 -->
+    <!-- base, components, utilities -->
     <style type="text/tailwindcss">
       @layer components {
         .container {
           @apply relative;
-          @apply min-h-screen max-w-full;
+          @apply min-h-screen;
           @apply bg-[url('https://play.tailwindcss.com/img/beams.jpg')] bg-no-repeat bg-center bg-cover;
+          /* margin-left: auto; */
+          /* margin-right: auto; */
+          /* margin-inline: auto; */
+          @apply max-w-full;
         }
+
         .logo {
           @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
           @apply transition-transform duration-[400ms] ease-in-out;
@@ -33,21 +72,13 @@
     </style>
   </head>
   <body>
-    
     <!-- 유틸리티 퍼스트 데모 : CSS 클래스 정의 ❌ -->
-    <div id="demo__utility-first" hidden>
+    <div id="demo__utility-first">
       <div
-        class="
-          relative 
-          min-h-screen max-w-full
-          bg-[url('https://play.tailwindcss.com/img/beams.jpg')] bg-no-repeat bg-center bg-cover"
+        class="relative min-h-screen max-w-full bg-tw-beams bg-no-repeat bg-center bg-cover"
       >
         <img
-          class="
-            absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
-            transition-transform duration-[400ms] ease-in-out
-            h-10 w-auto 
-            hover:scale-150"
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform duration-400 ease-in-out h-10 w-auto hover:scale-150"
           src="https://play.tailwindcss.com/img/logo.svg"
           alt="tailwind play"
         />
@@ -55,9 +86,13 @@
     </div>
 
     <!-- 재사용 가능한 클래스 데모 : CSS 클래스 정의 ✅ -->
-    <div id="demo__reuse-classes">
+    <div id="demo__reuse-classes" hidden>
       <div class="container">
-        <img class="logo" src="https://play.tailwindcss.com/img/logo.svg" alt="tailwind play" />
+        <img
+          class="logo"
+          src="https://play.tailwindcss.com/img/logo.svg"
+          alt="tailwind play"
+        />
       </div>
     </div>
   </body>
