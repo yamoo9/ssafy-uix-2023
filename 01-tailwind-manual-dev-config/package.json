@@ -19,6 +19,8 @@
     "vite": "4.4.3"
   },
   "scripts": {
-    "dev": "vite --host"
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
   }
 }

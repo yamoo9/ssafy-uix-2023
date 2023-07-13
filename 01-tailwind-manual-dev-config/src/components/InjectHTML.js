@@ -64,4 +64,5 @@ class InjectHTML extends HTMLElement {
   }
 }
 
+// 컴포넌트 => 사용자 정의 요소 생성
 customElements.define('inject-html', InjectHTML);
